@@ -1,6 +1,7 @@
 // 2024-01-30
 // Robotics: 2 Push Button with 3 LEDs (Mastery Exercises 2)
 // Circuit ko: https://imgur.com/FsY9FGP
+// Github Repository: https://github.com/EmmanuelUniana17/ArduinoProjects
 
 int led1 = 4; // Red LED
 int led2 = 3; // Yellow LED
@@ -40,5 +41,3 @@ void loop()
     digitalWrite(led3, LOW);
   }
 } 
-
-// awit
