@@ -15,28 +15,23 @@ void setup()
   pinMode(pbutton2, INPUT);
 }
 
-void loop()
-{
+void loop(){
   switchStatus1 = digitalRead(pbutton1);
-  
-  if (switchStatus1 == LOW)
-  {
-    digitalWrite(led2, LOW);
-  } 
-  else
-  {
-    digitalWrite(led2, HIGH);
-  } 
   switchStatus2 = digitalRead(pbutton2); 
+  
+  if(switchStatus1 == HIGH) {
+    digitalWrite(led2, HIGH);
+  }
+  else {
+    digitalWrite(led2, LOW);
+  }
 
-  if (switchStatus2 == LOW)
-  {
-  	digitalWrite(led1, LOW);
-  	digitalWrite(led3, LOW);
-  }  
-  else
-  {
-    digitalWrite(led1, HIGH);
+  if(switchStatus2 == HIGH) {
+  	digitalWrite(led1, HIGH);
     digitalWrite(led3, HIGH);
-  } 
+  }
+  else {
+    digitalWrite(led1, LOW);
+    digitalWrite(led3, LOW);
+  }
 } 
