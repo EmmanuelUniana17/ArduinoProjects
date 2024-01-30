@@ -28,7 +28,7 @@ void loop()
   }
 
   if(switchStatus2 == HIGH) {
-  	digitalWrite(led1, HIGH);
+    digitalWrite(led1, HIGH);
     digitalWrite(led3, HIGH);
   }
   else {
