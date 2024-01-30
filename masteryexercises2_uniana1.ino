@@ -1,6 +1,6 @@
 // 2024-01-30
 // Robotics: 2 Push Button with 3 LEDs (Mastery Exercises 2)
-// Circuit ko: https://imgur.com/FsY9FGP
+// Circuit ko: https://i.imgur.com/FsY9FGP.png
 // Github Repository: https://github.com/EmmanuelUniana17/ArduinoProjects
 
 int led1 = 4; // Red LED
