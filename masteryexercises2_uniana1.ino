@@ -2,11 +2,11 @@
 // Robotics: 2 Push Button with 3 LEDs (Mastery Exercises 2)
 // Circuit ko: https://imgur.com/FsY9FGP
 
-int led1 = 4;
-int led2 = 3;
-int led3 = 2;
-int pbutton1 = 5;
-int pbutton2 = 6;
+int led1 = 4; // Red LED
+int led2 = 3; // Yellow LED
+int led3 = 2; // Green LED
+int pbutton1 = 5; // Left Button
+int pbutton2 = 6; // Right Button
 int switchStatus1 = 0;
 int switchStatus2 = 0;
 
@@ -21,22 +21,24 @@ void setup()
 
 void loop()
 {
-  switchStatus1 = digitalRead(pbutton1);
-  switchStatus2 = digitalRead(pbutton2); 
+  switchStatus1 = digitalRead(pbutton1); // Reads the input of Button 1 (Left) and stores the value in the variable.
+  switchStatus2 = digitalRead(pbutton2); // Reads the input of Button 2 (Right) and stores the value in the variable.
   
-  if(switchStatus1 == HIGH) {
+  if(switchStatus1 == HIGH) { // If Button 1 (Left) is pressed, LED 2 will turn on.
     digitalWrite(led2, HIGH);
   }
-  else {
+  else { // If not, LED 2 will turn off.
     digitalWrite(led2, LOW);
   }
 
-  if(switchStatus2 == HIGH) {
+  if(switchStatus2 == HIGH) { // If Button 2 (Right) is pressed, LED 1 and 3 will turn on.
     digitalWrite(led1, HIGH);
     digitalWrite(led3, HIGH);
   }
-  else {
+  else { // If not, LED 1 and 3 will turn off.
     digitalWrite(led1, LOW);
     digitalWrite(led3, LOW);
   }
 } 
+
+// awit
