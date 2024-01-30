@@ -18,13 +18,14 @@ void setup()
 void loop()
 {
   switchStatus1 = digitalRead(pbutton1);
-  switchStatus2 = digitalRead(pbutton2);
   
   if (switchStatus1 == LOW)
     digitalWrite(led2, LOW);
   else
     digitalWrite(led2, HIGH);
-  
+
+  switchStatus2 = digitalRead(pbutton2); 
+
   if (switchStatus2 == LOW)
   	digitalWrite(led1, LOW);
   	digitalWrite(led3, LOW);
