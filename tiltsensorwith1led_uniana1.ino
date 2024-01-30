@@ -1,6 +1,6 @@
 // 2024-01-30
 // Robotics: Tilt Sensor with 1 LED
-// Circuit ko: https://imgur.com/FsY9FGP
+// Circuit ko: https://imgur.com/uHhUH0y
 // Github Repository: https://github.com/EmmanuelUniana17/ArduinoProjects
 
 int led_yellow = 3; // Yellow LED
