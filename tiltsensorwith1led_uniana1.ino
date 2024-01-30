@@ -1,5 +1,10 @@
-int led_yellow = 3;
-int tsensor = 2;
+// 2024-01-30
+// Robotics: Tilt Sensor with 1 LED
+// Circuit ko: https://imgur.com/FsY9FGP
+// Github Repository: https://github.com/EmmanuelUniana17/ArduinoProjects
+
+int led_yellow = 3; // Yellow LED
+int tsensor = 2; // Tilt Sensor
 int tiltStatus = 0;
 
 void setup()
@@ -10,14 +15,14 @@ void setup()
 
 void loop()
 {
-  tiltStatus = digitalRead(tsensor);
+  tiltStatus = digitalRead(tsensor); // Will read the input from the Tilt Sensor and stores it in the variable.
   
-  if(tiltStatus == LOW)
+  if(tiltStatus == LOW) // If the Tilt Status is LOW or FALSE, the LED will not turn on.
   {
     digitalWrite(led_yellow, LOW);
   }
   
-  else
+  else // If not, then the LED will turn on.
   {
     digitalWrite(led_yellow, HIGH);
   }
