@@ -1,5 +1,6 @@
 // 2024-01-30
 // Robotics: 2 Push Button with 3 LEDs (Mastery Exercises 2)
+// Circuit ko: https://imgur.com/FsY9FGP
 
 int led1 = 4;
 int led2 = 3;
