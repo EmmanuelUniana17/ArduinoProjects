@@ -15,7 +15,8 @@ void setup()
   pinMode(pbutton2, INPUT);
 }
 
-void loop(){
+void loop()
+{
   switchStatus1 = digitalRead(pbutton1);
   switchStatus2 = digitalRead(pbutton2); 
   
