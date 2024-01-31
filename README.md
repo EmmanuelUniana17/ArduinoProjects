@@ -19,5 +19,5 @@
 
 ## Built With
 
-![Tinkercad](https://img.shields.io/badge/Software-Tinkercad)
-![Image Hosting](https://img.shields.io/Image_Hosting-Imgur)
+![Tinkercad](https://img.shields.io/badge/Software-Tinkercad-Blue)
+![Image Hosting](https://img.shields.io/badge/Image_Hosting-Imgur-Green)
