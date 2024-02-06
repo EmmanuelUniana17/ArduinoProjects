@@ -14,15 +14,15 @@ void setup()
 
 void loop()
 {
-  switchStatus = digitalRead(tsensor);
+  switchStatus = digitalRead(tsensor); // Reads the input of Tilt Sensor and stores it in the variable. 
   
-  if(switchStatus == LOW)
+  if(switchStatus == LOW) // If Tilt Sensor is LOW, LED 2 turns on. 
   {
     digitalWrite(led1, LOW); // LED 1 Off
     digitalWrite(led2, HIGH); // LED 2 On
     digitalWrite(led3, LOW); // LED 3 Off
   } 
-  else
+  else // If not, then LEDs 1 and 3 will turn on. 
   {
     digitalWrite(led1, HIGH); // LED 1 On
     digitalWrite(led2, LOW); // LED 2 Off
