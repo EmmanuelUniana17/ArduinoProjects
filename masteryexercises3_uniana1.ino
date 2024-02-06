@@ -18,9 +18,9 @@ void loop()
   
   if(switchStatus == LOW)
   {
-    digitalWrite(led1, LOW); // Off
-    digitalWrite(led2, HIGH); // On
-    digitalWrite(led3, LOW); // Off
+    digitalWrite(led1, LOW); // LED 1 Off
+    digitalWrite(led2, HIGH); // LED 2 On
+    digitalWrite(led3, LOW); // LED 3 Off
   } 
   else
   {
