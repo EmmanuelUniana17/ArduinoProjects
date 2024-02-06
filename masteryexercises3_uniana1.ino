@@ -1,7 +1,7 @@
 // 2024-02-06
-// Robotics: Mastery Exercises 3 Tilt Sensor and 3 LEDs
+// Robotics: Tilt Sensor and 3 LEDs (Mastery Exervises 3)
 // Circuit ni chat:
-// Github Repository: 
+// Github Repository: https://github.com/EmmanuelUniana17/ArduinoProjects
 
 int led1 = 4;
 int led2 = 3;
